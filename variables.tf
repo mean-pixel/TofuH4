@@ -33,21 +33,21 @@ variable "vms" {
       node = "PVE1"
       vmid = 600
       cpu  = 2
-      ram  = 2048
+      ram  = 4096
       disk = 50
     }
     Test-vm2 = {
       node = "PVE2"
       vmid = 601
       cpu  = 2
-      ram  = 2048
+      ram  = 4096
       disk = 50
     }
     Test-vm3 = {
       node = "PVE3"
       vmid = 602
       cpu  = 2
-      ram  = 2048
+      ram  = 4096
       disk = 50
     }
     Test-vm4 = {
